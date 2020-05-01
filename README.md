@@ -3,4 +3,4 @@ Null SMTP Server in Java. I see a lot made in Go, Node, etc. but I wanted a Java
 
 `relayer.smtp.server.port` sets the listening prot
 
-`relayer.smtp.server.delay` allows to set a delay with each email to simulate any kind of processing.
+`relayer.smtp.server.delay` allows to set a delay (ms) with each email to simulate any kind of processing.
