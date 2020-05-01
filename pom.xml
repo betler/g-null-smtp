@@ -16,6 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<apache-james.version>3.4.0</apache-james.version>
+		<apache-mime4j.version>0.8.3</apache-mime4j.version>
 	</properties>
 
 	<dependencies>
@@ -34,6 +36,16 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.james.protocols</groupId>
+			<artifactId>protocols-smtp</artifactId>
+			<version>${apache-james.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.james</groupId>
+			<artifactId>apache-mime4j-core</artifactId>
+			<version>${apache-mime4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
