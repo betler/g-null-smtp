@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<apache-james.version>3.4.0</apache-james.version>
-		<apache-mime4j.version>0.8.3</apache-mime4j.version>
+		<apache-mime4j.version>0.8.10</apache-mime4j.version>
 	</properties>
 
 	<dependencies>
